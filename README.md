@@ -26,6 +26,7 @@ When you are ready to write your own code:
 - Choose your own licensing terms and replace the [`LICENSE`](./LICENSE) file.
 - Replace this [`README.md`](./README.md) file with your own ;)
 
+
 ## Features
 
 - C++20 support (up to the GCC version supported by [ESP-IDF][]).
