@@ -23,7 +23,8 @@ When you are ready to write your own code:
     - main component's [`CMakeLists.txt`](./main/CMakeLists.txt) .
     - reference in [`main/app_main.cpp`](./main/app_main.cpp) .
 - Remove unused components (you may need to properly remove git submodules using `git submodule deinit` and `git rm`).
-
+- Choose your own licensing terms and replace the [`LICENSE`](./LICENSE) file.
+- Replace this [`README.md`](./README.md) file with your own ;)
 
 ## Features
 
@@ -43,7 +44,7 @@ Issues, pull requests, forking are all welcome.
 ## License
 
 Everything in this repo is public domain / CC0, unless specified in a nested LICENSE file (e.g. in [`components`](./components)).
-See [LICENSE](LICENSE).
+See [LICENSE](./LICENSE). You may replace this license file with your own.
 
 
 [ESP-IDF]: https://github.com/espressif/esp-idf
