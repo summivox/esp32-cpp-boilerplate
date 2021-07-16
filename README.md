@@ -1,6 +1,6 @@
 # summivox's Opinionated ESP32 C++ Boilerplate
 
-This repo provides a clean yet convenient starting point for a ESP32 firmware project using C++20 with [ESP-IDF][].
+This repo provides a clean yet convenient starting point for an ESP32 firmware project using C++20 with [ESP-IDF][].
 
 A set of minimal examples are included to guide code organization, both for user code and for dependencies,
 as well as showcasing some C++ tricks that simplify firmware writing. These can be removed easily to make room for your code.
@@ -28,7 +28,7 @@ When you are ready to write your own code:
 
 ## Features
 
-- C++20 support (up to the GCC version supported by ESP-IDF).
+- C++20 support (up to the GCC version supported by [ESP-IDF][]).
 - Examples for external libraries / dependencies (see [components](./components)).
 - Convenient utilities to reduce boilerplate (e.g. [FreeRTOS task wrapper](./main/common/task.hpp)). 
 
