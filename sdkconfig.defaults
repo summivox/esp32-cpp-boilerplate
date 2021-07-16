@@ -1,0 +1,25 @@
+# NOTE: Since `sdkconfig` is excluded by `.gitignore`, this file can be used instead to specify the most important options.
+# See https://docs.espressif.com/projects/esp-idf/en/latest/esp32/api-guides/build-system.html#custom-sdkconfig-defaults
+
+CONFIG_ESP_SYSTEM_PANIC_PRINT_HALT=y
+
+CONFIG_ESP32_DEFAULT_CPU_FREQ_240=y
+CONFIG_ESP32_DEFAULT_CPU_FREQ_MHZ=240
+
+# If you encounter any flashing issues, try comment out / remove the following lines.
+CONFIG_ESPTOOLPY_FLASHMODE_QIO=y
+CONFIG_ESPTOOLPY_FLASHFREQ_80M=y
+CONFIG_ESPTOOLPY_FLASHFREQ="80m"
+
+CONFIG_COMPILER_OPTIMIZATION_PERF=y
+CONFIG_COMPILER_CXX_EXCEPTIONS=y
+CONFIG_COMPILER_CXX_EXCEPTIONS_EMG_POOL_SIZE=512
+
+# Use the same baud rate for MONITOR and ESP32 default UART
+CONFIG_ESPTOOLPY_MONITOR_BAUD_CONSOLE=y
+
+CONFIG_FREERTOS_HZ=1000
+
+#######################################################################################
+
+CONFIG_UART_ISR_IN_IRAM=y
