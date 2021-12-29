@@ -5,9 +5,19 @@ set(srcs
 # TODO: add new source (.c/.cc/.cpp) files here (best if kept in lexical order)
 )
 
+set(requires
+# System
+spi_flash
+
+# Project
+fmtlib
+scope_guard
+)
+
 idf_component_register(
     SRCS ${srcs}
     INCLUDE_DIRS "."
+    REQUIRES ${requires}
 )
 
 # compiler flags for the `main` component can be specified here
