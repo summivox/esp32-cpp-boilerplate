@@ -1,4 +1,5 @@
 cmake_minimum_required(VERSION 3.5)
+set(CMAKE_CXX_STANDARD 20)
 
 # enable explicit components requirements specification
 # comment out if you want to implicitly include all esp-idf components
